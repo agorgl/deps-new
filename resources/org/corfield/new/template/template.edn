@@ -1,4 +1,4 @@
-{:description "FIXME: my new template."
+{:description "FIXME: my new template"
  :transform
  [["resources" "resources/{{top/file}}/{{main/file}}" {} ["<<" ">>"]]
   ["build" ""

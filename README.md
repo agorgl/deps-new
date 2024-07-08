@@ -58,12 +58,12 @@ Creates a directory `mynewapp` containing a new application project, with `myuse
   (:gen-class))
 
 (defn greet
-  "Callable entry point to the application."
+  "Callable entry point to the application"
   [data]
   (println (str "Hello, " (or (:name data) "World") "!")))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "I don't do a whole lot ... yet"
   [& args]
   (greet {:name (first args)}))
 ```

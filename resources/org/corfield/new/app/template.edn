@@ -1,4 +1,4 @@
-{:description "FIXME: my new application."
+{:description "FIXME: my new application"
  :transform
  [["build" ""
    {"build.tmpl" "build.clj"
